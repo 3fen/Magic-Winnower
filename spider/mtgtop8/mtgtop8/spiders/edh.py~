@@ -1,0 +1,17 @@
+import scrapy
+
+class EDHSpider(scrapy.Spider):
+    name = 'edh'
+    allowed_domains = ['mtgtop8.com']
+    start_urls = [
+        "http://mtgtop8.com/event?e=12022&f=EDH"]
+    ]
+
+
+    def parse(self, response):
+        for card in response.xpath('//ul/li'):
+            title = sel.xpath('a/text()').extract()
+            link = sel.xpath('a/@href').extract()
+            desc = sel.xpath('text()').extract()
+            print 'title=<',title,'>link=<', link,'>desc=<', desc,'>'
+
