@@ -8,42 +8,42 @@
    3. [ ] test():
       - ret: []
   
-   4. Database: Magic [0%]
-      1. [ ] card_essentials(e.g. "Den Protector", "Force of Will")
-	 1. name
-	 2. cmc:converted mana cost
-	 3. color
-	    - W/U/B/R/G/C
-	 4. mana_cost
-	    - TODO
-	 5. type
-	    - Artifact, Creature, Enchantment, Instant, Sorcery, Land, Planeswalker, Tribe?,
-	    - Legendary,
-	    - Goblin, Human, Beast...
+   4. Database: Magic [100%]
+      - [X] card_essentials(e.g. "Den Protector", "Force of Will")
+	1. name
+	2. cmc:converted mana cost
+	3. color
+	   - W/U/B/R/G/C
+	4. mana_cost
+	   - TODO
+	5. type
+	   - Artifact, Creature, Enchantment, Instant, Sorcery, Land, Planeswalker, Tribe?,
+	   - Legendary,
+	   - Goblin, Human, Beast...
 
-      2. [ ] cards_real
-	 - artist
-	 - foil
-	 - set
-	 - no.
-	 - language
-	   - ENG/CHS/CHT/...
+      - [X] cards_real
+	- artist
+	- foil
+	- set
+	- no.
+	- language
+	  - ENG/CHS/CHT/...
 
-      3. [ ] sets(e.g. BFZ, SOI,...)
-	 - full_name
-	 - abbreviation
-	 - total_num
-	 - block(KTK, BFZ, Core...)
-	 - date
-	 - description
+      - [X] sets(e.g. BFZ, SOI,...)
+	- full_name
+	- abbreviation
+	- total_num
+	- block(KTK, BFZ, Core...)
+	- date
+	- description
 
-      4. [ ] artists
-	 - name
-	 - nation
-	 - ...
+      - [X] artists
+	- name
+	- nation
+	- ...
 
-2. Process [0%]
-   1. [ ] Crawling magiccards.info
+2. Process [25%]
+   1. [X] Crawling magiccards.info
    2. [ ] Train & Testing for BFZ set
    3. [ ] Larger to bigger block
    4. [ ] Design for HARD-WARE
